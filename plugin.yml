@@ -1,0 +1,22 @@
+name: TimeRanks
+main: TimeRanks\Main
+version: 2.0.1
+api: [1.12.0]
+
+load: POSTWORLD
+author: SoraCyber
+description: Always Play And Claim The Ranks
+website: https://github.com/KurutaEvolvy
+commands:
+ timeranks:
+  description: The main command
+  usage: "/timeranks time [player]"
+  aliases: [pr, ptime, timeranks]
+  permission: timeranks.command
+permissions:
+ timeranks.command:
+  description: "Allow players to use /play time command"
+  default: true
+ timeranks.exempt:
+  description: "Allow players to rankup"
+  default: op
